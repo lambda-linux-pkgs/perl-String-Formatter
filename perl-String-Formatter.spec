@@ -1,6 +1,8 @@
+%define _buildid .1
+
 Name:           perl-String-Formatter
 Version:        0.102084
-Release:        1%{?dist}
+Release:        1%{?_buildid}%{?dist}
 Summary:        Build sprintf-like functions of your own
 License:        GPLv2
 Group:          Development/Libraries
