@@ -59,6 +59,11 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Thu Dec 25 2014 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 0.102084-1
+- Adapt for AL/LL
+- Add package support URL
+- Import source package FC22/perl-String-Formatter-0.102084-1.fc22
+
 * Fri Nov 21 2014 Petr Pisar <ppisar@redhat.com> - 0.102084-1
 - 0.102084 bump
 
