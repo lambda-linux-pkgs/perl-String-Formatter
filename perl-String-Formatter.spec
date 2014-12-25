@@ -21,6 +21,9 @@ Requires:       perl(:MODULE_COMPAT_%(eval "`perl -V:version`"; echo $version))
 %{?perl_default_filter}
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 String::Formatter is a tool for building sprintf-like formatting routines.
 It supports named or positional formatting, custom conversions, fixed
 string interpolation, and simple width-matching out of the box. It is easy
